@@ -28,7 +28,7 @@
     <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
       <sprite name="Diving Mask Wearable" texture="Content/Items/Jobgear/headgears.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.7" hidelimb="false" hideotherwearables="false" sourcerect="226,326,69,68" origin="0.4,0.3" hidewearablesoftype="moustache,beard" />
       <StatusEffect type="OnWearing" target="Character" HideFace="true" SpeedMultiplier="0.9" setvalue="true" disabledeltatime="true" />
-      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1000.0" Condition="-0.05" comparison="Or">
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1000.0" Condition="-0.15" comparison="Or">
         <Conditional IsDead="false" />
         <RequiredItem items="oxygentank" type="Contained" />
       </StatusEffect>
@@ -40,11 +40,11 @@
         <RequiredItem items="incendiumfueltank" type="Contained" />
         <Affliction identifier="burn" amount="0.1" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1000.0" Condition="-0.03" comparison="Or">
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1000.0" Condition="-0.1" comparison="Or">
         <Conditional IsDead="false" />
         <RequiredItem items="oxygeniteshard" type="Contained" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1500.0" Condition="-0.01" comparison="Or">
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1500.0" Condition="-0.025" comparison="Or">
         <Conditional IsDead="false" />
         <RequiredItem items="oxygenitetank" type="Contained" />
       </StatusEffect>
@@ -126,7 +126,7 @@
         <Conditional Voltage="gt 0.01" targetcontainer="true" targetgrandparent="true" targetitemcomponent="Powered" />
         <RequiredItem items="refillableoxygensource" type="Contained" excludebroken="false" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1000.0" Condition="-0.04" comparison="Or">
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1000.0" Condition="-0.075" comparison="Or">
         <Conditional IsDead="false" />
         <RequiredItem items="oxygentank" type="Contained" />
       </StatusEffect>
@@ -139,11 +139,11 @@
         <RequiredItem items="incendiumfueltank" type="Contained" />
         <Affliction identifier="burn" amount="0.1" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1000.0" Condition="-0.04" comparison="Or">
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1000.0" Condition="-0.075" comparison="Or">
         <Conditional IsDead="false" />
         <RequiredItem items="oxygeniteshard" type="Contained" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1500.0" Condition="-0.01" comparison="Or">
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1500.0" Condition="-0.025" comparison="Or">
         <Conditional IsDead="false" />
         <RequiredItem items="oxygenitetank" type="Contained" />
       </StatusEffect>
@@ -255,7 +255,7 @@
         <Conditional IsDead="false" />
         <RequiredItem items="oxygeniteshard" type="Contained" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1500.0" Condition="-0.005" comparison="Or">
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1500.0" Condition="-0.0125" comparison="Or">
         <Conditional IsDead="false" />
         <RequiredItem items="oxygenitetank" type="Contained" />
       </StatusEffect>
@@ -349,7 +349,7 @@
         <Conditional Voltage="gt 0.01" targetcontainer="true" targetgrandparent="true" targetitemcomponent="Powered" />
         <RequiredItem items="oxygentank" type="Contained" excludebroken="false" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1000.0" Condition="-0.04" comparison="Or">
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1000.0" Condition="-0.075" comparison="Or">
         <Conditional IsDead="false" />
         <RequiredItem items="oxygentank" type="Contained" />
       </StatusEffect>
@@ -362,11 +362,11 @@
         <RequiredItem items="incendiumfueltank" type="Contained" />
         <Affliction identifier="burn" amount="0.1" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1000.0" Condition="-0.04" comparison="Or">
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1000.0" Condition="-0.075" comparison="Or">
         <Conditional IsDead="false" />
         <RequiredItem items="oxygeniteshard" type="Contained" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1500.0" Condition="-0.01" comparison="Or">
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1500.0" Condition="-0.025" comparison="Or">
         <Conditional IsDead="false" />
         <RequiredItem items="oxygenitetank" type="Contained" />
       </StatusEffect>

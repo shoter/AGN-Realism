@@ -512,16 +512,16 @@
     </ConnectionPanel>
     <ItemContainer capacity="4" maxstacksize="1" canbeselected="true" hudpos="0.5,0.15" slotsperrow="1" uilabel="FuelRods">
       <Containable items="fuelrod">
-        <StatusEffect type="OnContaining" target="This" AvailableFuel="8000.0" disabledeltatime="true" />
+        <StatusEffect type="OnContaining" target="This" AvailableFuel="320.0" disabledeltatime="true" />
       </Containable>
       <Containable items="fulguriumfuelrod">
-        <StatusEffect type="OnContaining" target="This" AvailableFuel="15000.0" disabledeltatime="true" />
+        <StatusEffect type="OnContaining" target="This" AvailableFuel="700.0" disabledeltatime="true" />
       </Containable>
       <Containable items="thoriumfuelrod">
-        <StatusEffect type="OnContaining" target="This" AvailableFuel="10000.0" disabledeltatime="true" />
+        <StatusEffect type="OnContaining" target="This" AvailableFuel="400.0" disabledeltatime="true" />
       </Containable>
       <Containable items="fulguriumfuelrodvolatile">
-        <StatusEffect type="OnContaining" target="This" AvailableFuel="15000.0" disabledeltatime="true" />
+        <StatusEffect type="OnContaining" target="This" AvailableFuel="600.0" disabledeltatime="true" />
       </Containable>
     </ItemContainer>
     <Repairable selectkey="Action" header="electricalrepairsheader" deteriorationspeed="0.125" mindeteriorationdelay="120" maxdeteriorationdelay="720" MinDeteriorationCondition="10" minsabotagecondition="10" RepairThreshold="50" fixDurationHighSkill="5" fixDurationLowSkill="25" msg="ItemMsgRepairScrewdriver" hudpriority="10">
