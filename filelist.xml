@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="AGN Realism" path="Mods/AGN Realism/filelist.xml" corepackage="false" gameversion="0.15.13.0" steamworkshopid="2085880797" installtime="1588708440">
+	<Item file="Mods/AGN Realism/Items/diving/diving.xml" />
+	<Item file="Mods/AGN Realism/Items/diving/Abyss_DivingSuit.png" />
+	<Item file="Mods/AGN Realism/Items/diving/Abyss_DivingSuit_Items.png" />
+	<Item file="Mods/AGN Realism/Items/diving/combat_DivingSuit.png" />
+	<Item file="Mods/AGN Realism/Items/diving/Combat_DivingSuit_Items.png" />
+	<Item file="Mods/AGN Realism/Items/diving/DivingSuit_Item.png" />
+
+	
+	<Item file="Mods/AGN Realism/Items/reactor/reactor.xml" />
+	<Item file="Mods/AGN Realism/Items/reactor/graphLine.png" />
+	<Item file="Mods/AGN Realism/Items/reactor/Reactor.ogg" />
+	<Item file="Mods/AGN Realism/Items/reactor/ReactorOverheatAlarm.ogg" />
+	<Item file="Mods/AGN Realism/Items/reactor/Sector.png" />
+	<Item file="Mods/AGN Realism/Items/reactor/Meter.png" />
+
+
+</contentpackage>
