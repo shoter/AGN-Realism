@@ -175,7 +175,7 @@
   </Item>
   </Override>
   
-  </Override>
+  <Override>
     <Item name="" identifier="abyssdivingsuit" category="Equipment" tags="diving,deepdiving,provocative,respawnsuitdeep" scale="0.5" fireproof="true" description="" allowdroppingonswapwith="diving" impactsoundtag="impact_metal_heavy">
     <Price baseprice="430" minleveldifficulty="25">
       <Price locationtype="outpost" multiplier="0.9" minavailable="1"/>

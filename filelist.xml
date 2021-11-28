@@ -1,19 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentpackage name="AGN Realism" path="Mods/AGN Realism/filelist.xml" corepackage="false" gameversion="0.15.13.0" steamworkshopid="2085880797" installtime="1588708440">
 	<Item file="Mods/AGN Realism/Items/diving/diving.xml" />
-	<Item file="Mods/AGN Realism/Items/diving/Abyss_DivingSuit.png" />
-	<Item file="Mods/AGN Realism/Items/diving/Abyss_DivingSuit_Items.png" />
-	<Item file="Mods/AGN Realism/Items/diving/combat_DivingSuit.png" />
-	<Item file="Mods/AGN Realism/Items/diving/Combat_DivingSuit_Items.png" />
-	<Item file="Mods/AGN Realism/Items/diving/DivingSuit_Item.png" />
-
+	<None file="Mods/IntoTheAbyss/Content/Sprites/Abyss_DivingSuit_Items.png" />
+	<None file="Mods/IntoTheAbyss/Content/Sprites/Abyss_DivingSuit.png" />
+	<None file="Mods/IntoTheAbyss/Content/Sprites/Combat_DivingSuit_Items.png" />
+	<None file="Mods/IntoTheAbyss/Content/Sprites/combat_DivingSuit.png" />
+	<None file="Mods/IntoTheAbyss/Content/Sprites/DivingSuit_Item.png" />
+	<None file="Mods/IntoTheAbyss/Content/Sprites/reg_DivingSuit.png" />
+	<None file="Mods/IntoTheAbyss/Content/Sprites/DivingSuitLoop1.ogg" />
+	<None file="Mods/IntoTheAbyss/Content/Sprites/DivingSuitLoop2.ogg" />
 	
 	<Item file="Mods/AGN Realism/Items/reactor/reactor.xml" />
-	<Item file="Mods/AGN Realism/Items/reactor/graphLine.png" />
-	<Item file="Mods/AGN Realism/Items/reactor/Reactor.ogg" />
-	<Item file="Mods/AGN Realism/Items/reactor/ReactorOverheatAlarm.ogg" />
-	<Item file="Mods/AGN Realism/Items/reactor/Sector.png" />
-	<Item file="Mods/AGN Realism/Items/reactor/Meter.png" />
+	<None file="Mods/AGN Realism/Items/reactor/graphLine.png" />
+	<None file="Mods/AGN Realism/Items/reactor/Meter.png" />
+	<None file="Mods/AGN Realism/Items/reactor/reactor.png" />
+	<None file="Mods/AGN Realism/Items/reactor/Sector.png" />
+	<None file="Mods/AGN Realism/Items/reactor/Reactor.ogg" />
+	<None file="Mods/AGN Realism/Items/reactor/ReactorOverheatAlarm.ogg" />
 
+	<UpgradeModules file="Mods/AGN Realism/UpgradeModules.xml" />
+	<Text file="Mods/AGN Realism/EnglishUpgrades.xml" />
 
 </contentpackage>

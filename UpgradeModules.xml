@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<UpgradeModules>
+ 
+  <UpgradeModule identifier="increasewallhealthmaximum" maxlevel="1" categories="walls" increaseontooltip="20">
+    <Price baseprice="0" increaselow="+300%" increasehigh="+300%"/>
+    <Structure maxhealth="+300%" crushdepth="+0%"/>
+    <Sprite texture="Content/UI/CampaignUIAtlas2.png" sourcerect="640,640,128,128" origin="0.5,0.5"/>
+  </UpgradeModule>
+
+
+</UpgradeModules>
